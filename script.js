@@ -67,7 +67,7 @@ const employees = [
     },
     {
         name: "Elizabeth",
-        picture: "img/lizzy.png",
+        picture: "img/lizzy.jpeg",
         ratings: "2.5",
         reviewData: {
             january: {
