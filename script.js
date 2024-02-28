@@ -66,7 +66,7 @@ const employees = [
         summaryComment: " Janet's performance over the past months has shown improvement, particularly in her willingness to address basic troubleshooting tasks and seek assistance when needed. While there is still room for growth in areas such as technical skills and initiative, her punctuality, attendance, and positive relationships with colleagues are commendable. With continued effort and development, Janet has the potential to further enhance her contributions to the team."
     },
     {
-        name: "Elizabeth",
+        name: "Elizabeth Lartey",
         picture: "img/lizzy.jpeg",
         ratings: "2.5",
         reviewData: {
