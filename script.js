@@ -23,7 +23,7 @@ const employees = [
     },
     {
         name: "Catherine Darko",
-        picture: "img/cath.png",
+        picture: "img/cath.jpeg",
         ratings: "4.5",
         reviewData: {
             january: {
