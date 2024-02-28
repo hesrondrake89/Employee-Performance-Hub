@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Employee Performance Site</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <link rel="stylesheet" href="css/default.css" id="theme-color">
+    <script src="node_modules/html2canvas/dist/html2canvas.min.js"></script>
+
+
+</head>
+<body>    
+
+<!-- Navigation -->
+<header class="header">
+    <div class="container d-flex justify-content-between align-items-center">
+        <img src="img/coli.png" alt="Company Logo" class="logo">
+        <h1 class="header-title">  </h1>
+        <a href="index.html" class="btn btn-primary home-button">Home</a>
+    </div>
+</header>
+
+
+<div class="container mt-5">
+    <h2 class="mb-4">Call Center Performance Review</h2>
+
+    <!-- Month and Employee selection -->
+    <div class="form-group">
+        <label for="monthSelect">Select Month:</label>
+        <select id="monthSelect" class="form-control mb-2">
+            <!-- Add options for each month -->
+        </select>
+
+        <label for="employeeSelect">Select Employee:</label>
+        <select id="employeeSelect" class="form-control mb-4">
+            <!-- Add options for each employee -->
+        </select>
+    </div>
+
+    <!-- Employee performance display -->
+    <div id="employeePerformance" class="mb-4"></div>
+    <button class="btn btn-primary mt-3" id="downloadButton">Download Employee Info</button>
+
+
+
+
+    <!-- Attendance graph -->
+    <div id="attendanceGraph">
+        <!-- The graph will be rendered here dynamically using JavaScript -->
+    </div>
+</div>
+
+<!-- Scroll to Top -->
+<div class="scroll-top">
+    <i class="fa fa-angle-up" aria-hidden="true"></i>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.7.3/feather.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script src="js/scripts.js"></script>
+
+
+</body>
+</html>
